@@ -13,6 +13,8 @@ export default class Filter extends Component {
   componentWillMount() {
     this.props.populateAction()
   }
+
+
   cities() {
     if (this.props.globalState.populateFormsData.cities != undefined) {
       var {cities} = this.props.globalState.populateFormsData
